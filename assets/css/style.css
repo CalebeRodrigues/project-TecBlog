@@ -1,3 +1,48 @@
-body {
-    background: orange;
+* {
+    margin: 0px;
+    padding: 0px;
 }
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* Layout */
+
+.cabecalho {
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+.area-logo, .area-menu {
+    padding: 10px;
+}
+
+.area-logo h1 {
+    font-size: 2.5em;
+}
+
+.white {
+    color: white;
+}
+
+/* Formatação menu */
+
+.area-menu a {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.area-menu a:visited, .area-menu a:link {
+    color: white;
+    padding: 8px 12px;
+}
+ 
+.area-menu a:hover {
+    color: #f7b600;
+    background: white;
+}
+
