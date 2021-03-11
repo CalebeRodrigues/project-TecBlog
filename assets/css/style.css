@@ -21,10 +21,43 @@ body {
     padding: 10px;
 }
 
-.area-logo h1 {
-    font-size: 2.5em;
+.area-principal {
+    width: 920px;
+    margin: 0px auto;
 }
 
+.background-white {
+    background: orange;
+}
+
+.area-postagens {
+    width: 660px;
+    float: left;
+}
+
+.area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagens {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.postagens img {
+    width: 620px;
+}
+
+#rodape {
+    clear: both;
+    background: #CCC;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Geral */
 .white {
     color: white;
 }
@@ -38,7 +71,7 @@ body {
 
 .area-menu a:visited, .area-menu a:link {
     color: white;
-    padding: 8px 12px;
+    padding: 10px 14px;
 }
  
 .area-menu a:hover {
@@ -46,3 +79,6 @@ body {
     background: white;
 }
 
+.area-logo h1 {
+    font-size: 2.5em;
+}
